@@ -8,4 +8,4 @@ def f(x):
 
 
 def g():
-    return False
+    return False # Return False
