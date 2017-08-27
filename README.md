@@ -1,2 +1,2 @@
 # Python
-some educational files on python language
+some educational files on python language n
