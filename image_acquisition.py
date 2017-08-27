@@ -9,7 +9,12 @@ img = mpimg.imread('tulip.jpg')
 image_plot = plt.imshow(img)
 
 # Select a color from RGB
-lum_img = img[:, :, 2]
+lum_img = img[1, :, 2]
 
 # Plot the blue matrix
 image_plot_2 = plt.imshow(lum_img)
+
+# histogram of the 1D-data
+
+plt.hist(lum_img, bins=50, normed=1)
+plt.show()
