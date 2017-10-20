@@ -1,7 +1,7 @@
 # simple factorial function
 
 # Calculate factorial of the input_fac
-input_fac = 6
+input_fac = input('deger')
 
 
 # Define the factorial function
@@ -12,6 +12,7 @@ def factorial(number):
     return result_fac
 
 # Call the factorial function
-r = factorial(input_fac)
+r = factorial(4)
 
 print(r)
+
