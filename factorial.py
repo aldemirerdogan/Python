@@ -3,7 +3,7 @@
 # Calculate factorial of the input_fac
 input_fac = input('deger')
 
-
+look = 7
 # Define the factorial function
 def factorial(number):
     result_fac = 1
